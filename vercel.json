@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "routes": [
+      {
+        "src": "/ping",
+        "dest": "/api/ping"
+      }
+    ],
+    "crons": [
+      {
+        "path": "/ping",
+        "schedule": "*/10 * * * *"
+      }
+    ]
+  }
+  
